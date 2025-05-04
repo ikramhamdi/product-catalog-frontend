@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+📦 Product Catalog Frontend (React + Apollo Client)
+This is a React-based frontend for displaying a product catalog fetched via a GraphQL API. It connects to the Laravel-based fakestore-graphql backend and presents the product data in a clean, paginated UI with product detail popups.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ Features
+📦 Fetch products via GraphQL
 
-## Available Scripts
+📑 Pagination with total pages info
 
-In the project directory, you can run:
+🖼️ Product detail popups
 
-### `npm start`
+🌀 Loading spinner during API calls
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📱 Responsive layout with CSS Flexbox
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🌐 Clean integration with Laravel GraphQL API
 
-### `npm test`
+🚀 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1️⃣ Clone the project
+git clone https://github.com/ikramhamdi/product-catalog-frontend.git
+cd product-catalog-frontend
 
-### `npm run build`
+2️⃣ Install dependencies
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3️⃣ Start the development server
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Visit http://localhost:3000 in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔗 API Dependency
+This frontend connects to the backend GraphQL API hosted here:
 
-### `npm run eject`
+👉 https://github.com/ikramhamdi/fakestore-graphql
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Make sure your backend is running before starting the frontend.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📸 Screenshots
+(You can add a screenshot of your app UI here — just take a screenshot, upload it in your repo, and link it like ![screenshot](./screenshot.png))
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📚 Tech Stack
+React
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Apollo Client (GraphQL)
 
-## Learn More
+CSS (Custom Flexbox and media queries)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Laravel GraphQL API (as backend)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📜 License
+MIT — free to use for personal and educational projects.
