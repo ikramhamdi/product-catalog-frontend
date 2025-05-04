@@ -1,51 +1,49 @@
-📦 Product Catalog Frontend (React + Apollo Client)
-This is a React-based frontend for displaying a product catalog fetched via a GraphQL API. It connects to the Laravel-based fakestore-graphql backend and presents the product data in a clean, paginated UI with product detail popups.
+# Product Catalog Frontend (React + Apollo Client)
 
-✨ Features
-📦 Fetch products via GraphQL
+This is a React-based frontend application that connects to a custom GraphQL API (Laravel-based) to display product listings retrieved from [FakeStoreAPI](https://fakestoreapi.com/). Built as part of a showcase for integration developer roles.
 
-📑 Pagination with total pages info
+---
 
-🖼️ Product detail popups
+## 📦 Features
 
-🌀 Loading spinner during API calls
+- 🎨 Responsive product catalog with modern UI.
+- 🔍 Fetch product data via GraphQL using `@apollo/client`.
+- 📑 Pagination with dynamic page switching.
+- 🌀 Loading animations while fetching data.
+- 💬 Popup modal to display full product descriptions.
+- 🖱️ Close popup by clicking outside or using a close button.
+- 🎛️ Styled with clean, mobile-friendly CSS.
 
-📱 Responsive layout with CSS Flexbox
+---
 
-🌐 Clean integration with Laravel GraphQL API
+## 📌 Tech Stack
 
-🚀 Getting Started
+- React 18+
+- Apollo Client
+- GraphQL
+- CSS (Vanilla)
 
-1️⃣ Clone the project
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
 git clone https://github.com/ikramhamdi/product-catalog-frontend.git
 cd product-catalog-frontend
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 npm install
 
-3️⃣ Start the development server
+### 3️⃣ Start the development server
 npm start
+📌 The app will run at http://localhost:3000
 
-Visit http://localhost:3000 in your browser.
+# 🔗 Related Project
+Fakestore GraphQL API (Laravel)
 
-🔗 API Dependency
-This frontend connects to the backend GraphQL API hosted here:
+# 📸 Screenshots
+(Add screenshots here if you want — like product listing, popup window, etc)
 
-👉 https://github.com/ikramhamdi/fakestore-graphql
-
-Make sure your backend is running before starting the frontend.
-
-📸 Screenshots
-(You can add a screenshot of your app UI here — just take a screenshot, upload it in your repo, and link it like ![screenshot](./screenshot.png))
-
-📚 Tech Stack
-React
-
-Apollo Client (GraphQL)
-
-CSS (Custom Flexbox and media queries)
-
-Laravel GraphQL API (as backend)
-
-📜 License
-MIT — free to use for personal and educational projects.
+# 📃 License
+This project is for learning, demonstration, and showcase purposes.
