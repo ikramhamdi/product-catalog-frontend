@@ -4,7 +4,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 // Set up the Apollo Client to point to your Laravel GraphQL API
 const client = new ApolloClient({
-  uri: 'http://localhost:8000/graphql', // Your GraphQL endpoint
+  uri:'https://product-catalog-backend-production.up.railway.app/graphql', // Your GraphQL endpoint
   cache: new InMemoryCache(),
 });
 
