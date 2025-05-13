@@ -7,7 +7,7 @@ import { ApolloProvider, InMemoryCache, ApolloClient } from "@apollo/client";
 
 // Create Apollo Client
 const client = new ApolloClient({
-  uri: 'http://localhost:8000/graphql', // Your GraphQL endpoint here
+  uri: 'https://fakestore-graphql-production.up.railway.app/graphql', // Your GraphQL endpoint here
   cache: new InMemoryCache(),
 });
 
